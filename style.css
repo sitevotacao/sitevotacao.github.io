@@ -133,7 +133,8 @@ body {}
 /*----------------------------------------*/
 .product-sales-chart, .analytics-info-cs, .tranffic-als-inner, .analytics-rounded, .single-new-trend, .personal-info-wrap, .author-widgets-single, .calender-inner, .product-status-wrap, .review-tab-pro-inner, .income-dashone-total, .analytics-edu-wrap, .analytics-sparkle-line, .analysis-progrebar, .sparkline8-list, .sparkline9-list, .sparkline7-list, .sparkline10-list, .sparkline12-list, .sparkline13-list, .sparkline14-list, .sparkline13-list, .sparkline11-list, .x-editable-list, .code-editor-single, .blog-details-inner, .charts-single-pro, .about-sparkline, .sparkline-list, .button-ad-wrap, .tab-content-details, .sparkline16-list, .sparkline15-list, .tinymce-single, .single-product-item, .courses-inner, .single-latest-item, .product-payment-inner-st, .profile-info-inner, .contact-panel, .widget-int-shape, .social-media-edu{
 	padding:20px;
-	background:#fff;
+    background:#fff;
+    border-radius: 20px;
 }
 /*----------------------------------------*/
 /*  4. left sidebar
@@ -827,6 +828,7 @@ ul.setting-panel-list li{
     padding-right: 20px;
     margin-bottom: 30px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 .sr-input-func {
     position: relative;
@@ -3645,6 +3647,7 @@ element.style {
     width: 721px;
     height: 355px;
     vertical-align: top;
+    
 }
 div#sparklinehome canvas {
     width: 100% !important;
@@ -3930,7 +3933,8 @@ div#sparklinehome canvas {
 }
 .single-cards-item, .single-review-st-item, .white-box{
 	background:#fff;
-	overflow:hidden;
+    overflow:hidden;
+    border-radius: 20px;
 }
 .single-review-st-item, .white-box{
 	padding:20px;
