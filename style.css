@@ -49,7 +49,10 @@ html, body {height: 100%; font-family: 'Roboto', sans-serif;font-weight:400;back
 .alignright {float:right;margin-left:15px;margin-bottom: 15px}
 .aligncenter {display:block;margin:0 auto 15px}
 a:focus {outline:0px solid}
-img {max-width:100%;height:auto}
+img {max-width:100%;height:auto;	
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */}
 .fix {overflow:hidden}
 p {margin:0 0 15px;}
 h1, h2, h3, h4, h5, h6 {
@@ -503,6 +506,9 @@ body {}
 .header-right-info .nav>li>a>img{
 	width: 26px;
     border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
 }
 .header-right-info .author-project-icon{
     color: #fff;
@@ -617,7 +623,10 @@ ul.message-menu li .message-content p, ul.notification-menu li .notification-con
 	background:#303030;
 }
 .notes-img{
-	float:left;
+    float:left;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
 }
 .notes-img img{
 	border-radius:50%;
