@@ -1,0 +1,1621 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Data Table | Votacoes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Google Fonts
+		============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl.carousel CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- animate CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- meanmenu icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- educate icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/educate-custon-icon.css">
+    <!-- morrisjs CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- x-editor CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/editor/select2.css">
+    <link rel="stylesheet" href="css/editor/datetimepicker.css">
+    <link rel="stylesheet" href="css/editor/bootstrap-editable.css">
+    <link rel="stylesheet" href="css/editor/x-editor-style.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/data-table/bootstrap-table.css">
+    <link rel="stylesheet" href="css/data-table/bootstrap-editable.css">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+    <!-- Start Left menu area -->
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                <strong><a href="index.html"><img src="img/logo/logosn.png" alt="" /></a></strong>
+            </div>
+            <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                <nav class="sidebar-nav left-sidebar-menu-pro">
+                    <ul class="metismenu" id="menu1">
+                        <li>
+                            <a class="has-arrow" href="index.html">
+								   <span class="educate-icon educate-home icon-wrap"></span>
+								   <span class="mini-click-non">Página Inicial</span>
+								</a>
+                            <ul class="submenu-angle" aria-expanded="true">
+                                <li><a title="Dashboard v.1" href="index.html"><span class="mini-sub-pro">Dashboard v.1</span></a></li>
+                                <!--<li><a title="Dashboard v.2" href="index-1.html"><span class="mini-sub-pro">Dashboard v.2</span></a></li>
+                                <li><a title="Dashboard v.3" href="index-2.html"><span class="mini-sub-pro">Dashboard v.3</span></a></li>
+                                <li><a title="Analytics" href="analytics.html"><span class="mini-sub-pro">Analytics</span></a></li>
+                                <li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>-->
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Candidatos</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="All Professors" href="all-professors.html"><span class="mini-sub-pro">Pesquisar</span></a></li>
+                                <!--<li><a title="Add Professor" href="add-professor.html"><span class="mini-sub-pro">Add Professor</span></a></li>
+                                <li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Professor</span></a></li>
+                                <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Professor Profile</span></a></li>-->
+                            </ul>
+                        </li>
+                        <!--<li>
+                            <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Students</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="All Students" href="all-students.html"><span class="mini-sub-pro">All Students</span></a></li>
+                                <li><a title="Add Students" href="add-student.html"><span class="mini-sub-pro">Add Student</span></a></li>
+                                <li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Edit Student</span></a></li>
+                                <li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Student Profile</span></a></li>
+                            </ul>
+                        </li>-->
+                        <!--<li>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Courses</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="All Courses" href="all-courses.html"><span class="mini-sub-pro">All Courses</span></a></li>
+                                <li><a title="Add Courses" href="add-course.html"><span class="mini-sub-pro">Add Course</span></a></li>
+                                <li><a title="Edit Courses" href="edit-course.html"><span class="mini-sub-pro">Edit Course</span></a></li>
+                                <li><a title="Courses Profile" href="course-info.html"><span class="mini-sub-pro">Courses Info</span></a></li>
+                                <li><a title="course Payment" href="course-payment.html"><span class="mini-sub-pro">Courses Payment</span></a></li>
+                            </ul>
+                        </li>-->
+                        <li>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Biografias</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <!--<li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Library Assets</span></a></li>
+                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Library Asset</span></a></li>
+                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Library Asset</span></a></li>-->
+                            </ul>
+                        </li>
+                        <!--<li>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Departments</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="Departments List" href="departments.html"><span class="mini-sub-pro">Departments List</span></a></li>
+                                <li><a title="Add Departments" href="add-department.html"><span class="mini-sub-pro">Add Departments</span></a></li>
+                                <li><a title="Edit Departments" href="edit-department.html"><span class="mini-sub-pro">Edit Departments</span></a></li>
+                            </ul>
+                        </li>-->
+                        <li class="active">
+                            <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non">Base de Dados</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="Data Table" href="alex-rato-2010.html"><span class="mini-sub-pro">Sessões 2020</span></a></li>
+                                <li><a title="Data Table" href="alex-rato-2019.html"><span class="mini-sub-pro">Sessões 2019</span></a></li>
+                                <!--<li><a title="Data Table" href="beto-moraes-2018.html"><span class="mini-sub-pro">Sessões 2018</span></a></li>
+                                <li><a title="Data Table" href="beto-moraes-2017.html"><span class="mini-sub-pro">Sessões 2017</span></a></li>-->
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <!-- End Left menu area -->
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+													<i class="educate-icon educate-nav"></i>
+												</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                                        <div class="header-top-menu tabl-d-n">
+                                            <ul class="nav navbar-nav mai-top-nav">
+                                                <li class="nav-item dropdown res-dis-nn">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Aprovados <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
+                                                    <div role="menu" class="dropdown-menu animated zoomIn">
+                                                        <a href="#" class="dropdown-item">Votações 2020</a>
+                                                        <a href="#" class="dropdown-item">Votações 2019</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown res-dis-nn">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Negados <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
+                                                    <div role="menu" class="dropdown-menu animated zoomIn">
+                                                        <a href="#" class="dropdown-item">Votações 2020</a>
+                                                        <a href="#" class="dropdown-item">Votações 2019</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+															<img src="img/contact/Alex Rato.jpg" alt="" />
+															<span class="admin-name">Alex Rato</span>
+															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+														</a>
+                                                        <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                            <li><a href="alex-rato-2020.html"><span class="edu-icon edu-home-admin author-log-ic"></span>Votações 2020</a>
+                                                            </li>
+                                                            <li><a href="alex-rato-2019.html"><span class="edu-icon edu-settings author-log-ic"></span>Votações 2019</a>
+                                                            </li>
+                                                            <!--<li><a href="beto-moraes-2018.html"><span class="edu-icon edu-user-rounded author-log-ic"></span>Votações 2018</a>
+                                                            </li>
+                                                            <li><a href="beto-moraes-2017.html"><span class="edu-icon edu-settings author-log-ic"></span>Votações 2017</a>
+                                                            </li>-->
+                                                        </ul>
+                                                </li>
+                                                <li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-menu"></i></a>
+
+                                                    <div role="menu" class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn">
+                                                        <ul class="nav nav-tabs custon-set-tab">
+                                                            <li class="active"><a data-toggle="tab" href="#Notes"><i class="fa fa-user-circle-o"></i> Candidatos</a>
+                                                            </li>
+                                                            <!--<li><a data-toggle="tab" href="#Projects">Projects</a>
+                                                            </li>
+                                                            <li><a data-toggle="tab" href="#Settings">Settings</a>
+                                                            </li>-->
+                                                        </ul>
+
+                                                        <div class="tab-content custom-bdr-nt">
+                                                            <div id="Notes" class="tab-pane fade in active">
+                                                                <div class="notes-area-wrap">
+                                                                    <div class="note-heading-indicate">
+                                                                        <!--<h2><i class="fa fa-user-circle-o"></i> Candidatos</h2>
+                                                                        <p>You have 10 new message.</p>-->
+                                                                    </div>
+                                                                    <div class="notes-list-area notes-menu-scrollbar">
+                                                                        <ul class="notes-menu-list">
+                                                                            <li>
+                                                                                <a href="alex-rato-2019.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Alex Rato.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Alex Rato</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="beto-moraes-2020.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Beto Moraes.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Beto Moraes</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="bruno-pessuti.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Bruno Pessuti.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Bruno Pessuti</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="caca-pereira.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Cacá Pereira.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Cacá Pereira</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="chicarelli.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Chicarelli.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Chicarelli</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="colpani.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Colpani.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Colpani</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="cristiano-santos.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Cristiano Santos.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Cristiano Santos</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="dona-lourdes.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Dona Lourdes.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Dona Lourdes</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="dr-wolmir.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Dr Wolmir.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Dr. Wolmir</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="dalton-borba.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Dalton Borba.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Dalton Borba</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="edson-parolin.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Edson do Parolin.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Edson do Parolin</p>
+                                                                                            <span>PSD</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="ezequias-barros.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Ezequias Barros.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Ezequias Barros</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="fabiane-rosa.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Fabiane Rosa.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Fabiane Rosa</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="felipe-braga-cortes.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Felipe Braga Cortes.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Felipe Braga Côrtes</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="geovane-fernandes.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Geovane Fernandes.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Geovane Fernandes</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="goura.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Goura.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Goura</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="helio-wirbiski.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Hélio Wirbinsk.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Helio Wirbiski</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="herivelto-oliveira.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Herivelto Oliveira.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Herivelto Oliveira</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="jairo-marcelino.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Jairo Marcelino.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Jairo Marcelino</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="jonny-stica.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Jonny Stica.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Jonny Stica</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="julieta-reis.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Julieta Reis.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Julieta Reis</p>
+                                                                                            <span>PSD</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="katia-dittrich.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Katia Dittrich.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Katia Dittrich</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="marcos-vieira.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Marcos Vieira.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Marcos Vieira</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="maria-leticia.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Maria Leticia.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Maria Leticia</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="maria-manfron.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Maria Manfron.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Maria Manfron</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="mauro-bobato.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Mauro Bobato.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Mauro Bobato</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="mauro-ignacio.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Mauro Ignácio.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Mauro Ignácio</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="mestre-pop.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Mestre Pop.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Mestre Pop</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="noemia-rocha.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Noemia Rocha.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Noemia Rocha</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="oscalino.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Oscalino do Povo.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Oscalino do Povo</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="osias-moraes.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Osias Moraes.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Osias Moraes</p>
+                                                                                            <span>PSD</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="paulo-rink.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Paulo Rink.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Paulo Rink</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="pier.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Pier Petruzziello.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Pier Petruzziello</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="professora-josete.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Professora Josete.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Professora Josete</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="professor-euler.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Professor Euler.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Professor Euler</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="professor-matsuda.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Professor Matsuda.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Professor Matsuda</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="sergio.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Serginho do Posto.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Serginho do Posto</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="professor-silberto.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Professor Silberto.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Professor Silberto</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="rogerio-campos.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Rogério Campos.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Rogerio Campos</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="sabino-picolo.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Sabino Picolo.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Sabino Picolo</p>
+                                                                                            <span>Sergio R. B. Balaguer (Serginho do Posto)</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="thiago-ferro.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Thiago Ferro.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Thiago Ferro</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="tico-kusma.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Tico Kuzma.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Tico Kuzma</p>
+                                                                                            <span>PSD</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="titlo-zeglin.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Tito Zeglin.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Tito Zeglin</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="toninho.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Toninho da farmácia.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Toninho da Farmácia</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="zezinho.html">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/Zezinho Sabará.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> Zezinho Sabará</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--<div id="Projects" class="tab-pane fade">
+                                                                <div class="projects-settings-wrap">
+                                                                    <div class="note-heading-indicate">
+                                                                        <h2><i class="fa fa-cube"></i> Latest projects</h2>
+                                                                        <p> You have 20 projects. 5 not completed.</p>
+                                                                    </div>
+                                                                    <div class="project-st-list-area project-st-menu-scrollbar">
+                                                                        <ul class="projects-st-menu-list">
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Web Development</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">1 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content">
+                                                                                            <p>Completion with: 28%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 28%;" class="progress-bar progress-bar-danger hd-tp-1"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Software Development</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">2 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content project-rating-cl">
+                                                                                            <p>Completion with: 68%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 68%;" class="progress-bar hd-tp-2"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Graphic Design</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">3 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content">
+                                                                                            <p>Completion with: 78%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 78%;" class="progress-bar hd-tp-3"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Web Design</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">4 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content project-rating-cl2">
+                                                                                            <p>Completion with: 38%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 38%;" class="progress-bar progress-bar-danger hd-tp-4"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Business Card</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">5 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content">
+                                                                                            <p>Completion with: 28%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 28%;" class="progress-bar progress-bar-danger hd-tp-5"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Ecommerce Business</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">6 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content project-rating-cl">
+                                                                                            <p>Completion with: 68%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 68%;" class="progress-bar hd-tp-6"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Woocommerce Plugin</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">7 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content">
+                                                                                            <p>Completion with: 78%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 78%;" class="progress-bar"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="project-list-flow">
+                                                                                        <div class="projects-st-heading">
+                                                                                            <h2>Wordpress Theme</h2>
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more or less normal.</p>
+                                                                                            <span class="project-st-time">9 hours ago</span>
+                                                                                        </div>
+                                                                                        <div class="projects-st-content project-rating-cl2">
+                                                                                            <p>Completion with: 38%</p>
+                                                                                            <div class="progress progress-mini">
+                                                                                                <div style="width: 38%;" class="progress-bar progress-bar-danger"></div>
+                                                                                            </div>
+                                                                                            <p>Project end: 4:00 pm - 12.06.2014</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="Settings" class="tab-pane fade">
+                                                                <div class="setting-panel-area">
+                                                                    <div class="note-heading-indicate">
+                                                                        <h2><i class="fa fa-gears"></i> Settings Panel</h2>
+                                                                        <p> You have 20 Settings. 5 not completed.</p>
+                                                                    </div>
+                                                                    <ul class="setting-panel-list">
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Show notifications</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
+                                                                                            <label class="onoffswitch-label" for="example">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Disable Chat</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
+                                                                                            <label class="onoffswitch-label" for="example3">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Enable history</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
+                                                                                            <label class="onoffswitch-label" for="example4">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Show charts</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
+                                                                                            <label class="onoffswitch-label" for="example7">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Update everyday</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example2">
+                                                                                            <label class="onoffswitch-label" for="example2">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Global search</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example6">
+                                                                                            <label class="onoffswitch-label" for="example6">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Offline users</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example5">
+                                                                                            <label class="onoffswitch-label" for="example5">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+
+                                                                </div>
+                                                            </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu start -->
+            <!--<div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Home <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a href="index.html">Dashboard v.1</a></li>
+                                                <li><a href="index-1.html">Dashboard v.2</a></li>
+                                                <li><a href="index-3.html">Dashboard v.3</a></li>
+                                                <li><a href="analytics.html">Analytics</a></li>
+                                                <li><a href="widgets.html">Widgets</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="events.html">Event</a></li>
+                                        <li><a data-toggle="collapse" data-target="#demoevent" href="#">Professors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demoevent" class="collapse dropdown-header-top">
+                                                <li><a href="all-professors.html">All Professors</a>
+                                                </li>
+                                                <li><a href="add-professor.html">Add Professor</a>
+                                                </li>
+                                                <li><a href="edit-professor.html">Edit Professor</a>
+                                                </li>
+                                                <li><a href="professor-profile.html">Professor Profile</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demopro" class="collapse dropdown-header-top">
+                                                <li><a href="all-students.html">All Students</a>
+                                                </li>
+                                                <li><a href="add-student.html">Add Student</a>
+                                                </li>
+                                                <li><a href="edit-student.html">Edit Student</a>
+                                                </li>
+                                                <li><a href="student-profile.html">Student Profile</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#democrou" href="#">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="democrou" class="collapse dropdown-header-top">
+                                                <li><a href="all-courses.html">All Courses</a>
+                                                </li>
+                                                <li><a href="add-course.html">Add Course</a>
+                                                </li>
+                                                <li><a href="edit-course.html">Edit Course</a>
+                                                </li>
+                                                <li><a href="course-profile.html">Courses Info</a>
+                                                </li>
+                                                <li><a href="course-payment.html">Courses Payment</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Library <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                                <li><a href="library-assets.html">Library Assets</a>
+                                                </li>
+                                                <li><a href="add-library-assets.html">Add Library Asset</a>
+                                                </li>
+                                                <li><a href="edit-library-assets.html">Edit Library Asset</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demodepart" href="#">Departments <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demodepart" class="collapse dropdown-header-top">
+                                                <li><a href="departments.html">Departments List</a>
+                                                </li>
+                                                <li><a href="add-department.html">Add Departments</a>
+                                                </li>
+                                                <li><a href="edit-department.html">Edit Departments</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demomi" href="#">Mailbox <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demomi" class="collapse dropdown-header-top">
+                                                <li><a href="mailbox.html">Inbox</a>
+                                                </li>
+                                                <li><a href="mailbox-view.html">View Mail</a>
+                                                </li>
+                                                <li><a href="mailbox-compose.html">Compose Mail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Miscellaneousmob" href="#">Interface <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Miscellaneousmob" class="collapse dropdown-header-top">
+                                                <li><a href="google-map.html">Google Map</a>
+                                                </li>
+                                                <li><a href="data-maps.html">Data Maps</a>
+                                                </li>
+                                                <li><a href="pdf-viewer.html">Pdf Viewer</a>
+                                                </li>
+                                                <li><a href="x-editable.html">X-Editable</a>
+                                                </li>
+                                                <li><a href="code-editor.html">Code Editor</a>
+                                                </li>
+                                                <li><a href="tree-view.html">Tree View</a>
+                                                </li>
+                                                <li><a href="preloader.html">Preloader</a>
+                                                </li>
+                                                <li><a href="images-cropper.html">Images Cropper</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Chartsmob" href="#">Charts <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Chartsmob" class="collapse dropdown-header-top">
+                                                <li><a href="bar-charts.html">Bar Charts</a>
+                                                </li>
+                                                <li><a href="line-charts.html">Line Charts</a>
+                                                </li>
+                                                <li><a href="area-charts.html">Area Charts</a>
+                                                </li>
+                                                <li><a href="rounded-chart.html">Rounded Charts</a>
+                                                </li>
+                                                <li><a href="c3.html">C3 Charts</a>
+                                                </li>
+                                                <li><a href="sparkline.html">Sparkline Charts</a>
+                                                </li>
+                                                <li><a href="peity.html">Peity Charts</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Tables <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Tablesmob" class="collapse dropdown-header-top">
+                                                <li><a href="static-table.html">Static Table</a>
+                                                </li>
+                                                <li><a href="data-table.html">Data Table</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#formsmob" href="#">Forms <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="formsmob" class="collapse dropdown-header-top">
+                                                <li><a href="basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li><a href="advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li><a href="password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li><a href="multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li><a href="tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li><a href="dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Appviewsmob" href="#">App views <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Appviewsmob" class="collapse dropdown-header-top">
+                                                <li><a href="basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li><a href="advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li><a href="password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li><a href="multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li><a href="tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li><a href="dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Pagemob" href="#">Pages <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Pagemob" class="collapse dropdown-header-top">
+                                                <li><a href="login.html">Login</a>
+                                                </li>
+                                                <li><a href="register.html">Register</a>
+                                                </li>
+                                                <li><a href="lock.html">Lock</a>
+                                                </li>
+                                                <li><a href="password-recovery.html">Password Recovery</a>
+                                                </li>
+                                                <li><a href="404.html">404 Page</a></li>
+                                                <li><a href="500.html">500 Page</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- DESCRICAO CANDIDATO -->
+ 
+        <div class="courses-area mg-b-15">
+            <div class="container-fluid">
+            <div class="breadcome-list single-page-breadcome">    
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="courses-inner res-mg-t-30 table-mg-t-pro-n tb-sm-res-d-n dk-res-t-d-n">
+                            <div class="panel-body custom-panel-jw">
+                                <div class="social-media-in">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <img alt="logo" class="img-circle m-b" src="img/contact/Alex Rato.jpg">
+                                <h3><a href="">ALEX RATO</a></h3>
+                                <p class="all-pro-ad">PSD</p>
+                                <p>
+                                    Este é o primeiro mandato de Alex Rato como vereador. Ele é suplente de Felipe Braga Côrtes (PSD), que saiu para integrar a Secretaria de Estado de Família e Desenvolvimento Social. O vereador é titular na Comissão de Constituição e Justiça.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="white-box">
+                            <h3 class="box-title">Estatistica do Candidato   <i class="fa fa-bar-chart" aria-hidden="true"></i></h3>
+                            <ul class="basic-list">
+                                <li>Votos "A Favor" <span class="pull-right label-success label-1 label">43,2%</span></li>
+                                <li>Votos "Contra" <span class="pull-right label-info label-2 label">9,53%</span></li>
+                                <li>Abstenções <span class="pull-right label-warning label-4 label">0,42%</span></li>
+                                <li>Não Votou <span class="pull-right label-purple label-4 label">46,82%</span></li>
+                                <li>Votos Totais <span class="pull-right label-purple label-7 label">472</span></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="white-box res-mg-t-30 table-mg-t-pro-n">
+                            <h3 class="box-title">Estatistica do Candidato <i class="fa fa-bar-chart" aria-hidden="true"></i></h3>
+                            <ul class="country-state">
+                                <li>
+                                    <h2><span class="counter">10.417</span></h2> <small>Votos "A Favor"</small>
+                                    <div class="pull-right">23,22% <i class="fa fa-level-up text-danger ctn-ic-1"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger ctn-vs-1" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%;"> <span class="sr-only">75% Complete</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span class="counter">538</span></h2> <small>Votos "Contra"</small>
+                                    <div class="pull-right">9,53% <i class="fa fa-level-up text-success ctn-ic-2"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info ctn-vs-2" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:48%;"> <span class="sr-only">48% Complete</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span class="counter">45</span></h2> <small>Abstenções</small>
+                                    <div class="pull-right">0,42% <i class="fa fa-level-up text-success ctn-ic-3"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success ctn-vs-3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:55%;"> <span class="sr-only">55% Complete</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span class="counter">3653</span></h2> <small>Não Votou</small>
+                                    <div class="pull-right">46,82% <i class="fa fa-level-down text-success ctn-ic-4"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success ctn-vs-4" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:33%;"> <span class="sr-only">33% Complete</span></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="white-box res-mg-t-30 table-mg-t-pro-n">
+                            <h3 class="box-title">Estatistica do Partido (PSD) <i class="fa fa-bar-chart" aria-hidden="true"></i></h3>
+                            <ul class="country-state">
+                                <li>
+                                    <h2><span class="counter">10.417</span></h2> <small>Votos "A Favor"</small>
+                                    <div class="pull-right">71,09% <i class="fa fa-level-up text-danger ctn-ic-1"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger ctn-vs-1" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%;"> <span class="sr-only">75% Complete</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span class="counter">538</span></h2> <small>Votos "Contra"</small>
+                                    <div class="pull-right">3,67% <i class="fa fa-level-up text-success ctn-ic-2"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info ctn-vs-2" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:48%;"> <span class="sr-only">48% Complete</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span class="counter">45</span></h2> <small>Abstenções</small>
+                                    <div class="pull-right">0,31% <i class="fa fa-level-up text-success ctn-ic-3"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success ctn-vs-3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:55%;"> <span class="sr-only">55% Complete</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span class="counter">3653</span></h2> <small>Não Votou</small>
+                                    <div class="pull-right">24,93% <i class="fa fa-level-down text-success ctn-ic-4"></i></div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success ctn-vs-4" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:33%;"> <span class="sr-only">33% Complete</span></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Static Table Start -->
+        <div class="data-table-area mg-b-15">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sparkline13-list">
+                            <div class="sparkline13-hd">
+                                <div class="main-sparkline13-hd">
+                                    <h1>Votação  <span class="table-project-n">Projetos</span> 2019</h1>
+                                </div>
+                            </div>
+                            <div class="sparkline13-graph">
+                                <div class="datatable-dashv1-list custom-datatable-overright">
+                                    <div id="toolbar">
+                                        <select class="form-control dt-tb">
+											<option value="">Export Basic</option>
+											<option value="all">Export All</option>
+											<option value="selected">Export Selected</option>
+										</select>
+                                    </div>
+                                    <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                        data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
+                                        <thead>
+                                            <tr>
+                                                <th data-field="state" data-checkbox="true"></th>
+                                                <th data-field="id">Descriçao da Ementa</th>
+                                                <th data-field="name" data-editable="true">Como votou</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;EMENTA&quot;}">EMENTA</td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Alex Rato&quot;}">Alex Rato</td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Aditiva ao Projeto de Lei Complementar, Proposi&ccedil;&atilde;o n&ordm; 002.00005.2018, de iniciativa do Sr. Prefeito Municipal, que \&quot;disp&otilde;e sobre a isen&ccedil;&atilde;o e a remiss&atilde;o da taxa de coleta de lixo\&quot;.&quot;}">Emenda Aditiva ao Projeto de Lei Complementar, Proposi&ccedil;&atilde;o n&ordm; 002.00005.2018, de iniciativa do Sr. Prefeito Municipal, que "disp&otilde;e sobre a isen&ccedil;&atilde;o e a remiss&atilde;o da taxa de coleta de lixo".</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Substitutivo Geral ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00029.2018, que \&quot;Disp&otilde;e sobre o direito &agrave; perman&ecirc;ncia na Educa&ccedil;&atilde;o Infantil\&quot;.&quot;}">Substitutivo Geral ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00029.2018, que "Disp&otilde;e sobre o direito &agrave; perman&ecirc;ncia na Educa&ccedil;&atilde;o Infantil".</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Modificativa ao Projeto de Lei, Proposi&ccedil;&atilde;o n&ordm; 005.00370.2017, de iniciativa do Prefeito, que \&quot;Disp&otilde;e sobre incentivos &agrave; inova&ccedil;&atilde;o e &agrave; pesquisa cient&iacute;fica e tecnol&oacute;gica no ambiente produtivo, cria&ccedil;&atilde;o do Conselho Municipal de Inova&ccedil;&atilde;o e d&aacute; outras provid&ecirc;ncias no &acirc;mbito do Munic&iacute;pio de Curitiba, conforme o disposto na Lei Federal n&ordm; 10.973, de 2 de dezembro de 2004 e suas altera&ccedil;&otilde;es\&quot;.&quot;}">Emenda Modificativa ao Projeto de Lei, Proposi&ccedil;&atilde;o n&ordm; 005.00370.2017, de iniciativa do Prefeito, que "Disp&otilde;e sobre incentivos &agrave; inova&ccedil;&atilde;o e &agrave; pesquisa cient&iacute;fica e tecnol&oacute;gica no ambiente produtivo, cria&ccedil;&atilde;o do Conselho Municipal de Inova&ccedil;&atilde;o e d&aacute; outras provid&ecirc;ncias no &acirc;mbito do Munic&iacute;pio de Curitiba, conforme o disposto na Lei Federal n&ordm; 10.973, de 2 de dezembro de 2004 e suas altera&ccedil;&otilde;es".</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Disp&otilde;e sobre o direito &agrave; perman&ecirc;ncia na Educa&ccedil;&atilde;o Infantil.&quot;}">Disp&otilde;e sobre o direito &agrave; perman&ecirc;ncia na Educa&ccedil;&atilde;o Infantil.</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Substitutivo Geral ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00085.2017, que \&quot;Disp&otilde;e sobre a divulga&ccedil;&atilde;o da demanda atendida e a n&atilde;o atendida nas unidades de ensino da rede p&uacute;blica municipal de Curitiba e d&aacute; outras provid&ecirc;ncias.\&quot;&quot;}">Substitutivo Geral ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00085.2017, que "Disp&otilde;e sobre a divulga&ccedil;&atilde;o da demanda atendida e a n&atilde;o atendida nas unidades de ensino da rede p&uacute;blica municipal de Curitiba e d&aacute; outras provid&ecirc;ncias."</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Modificativa ao Projeto de Lei Ordin&aacute;ria, proposi&ccedil;&atilde;o n&ordm; 005.00147.2018, de iniciativa do Sr. Prefeito, que \&quot;Altera a Lei n&ordm; 8.962, de 2 de dezembro de 1996 que institui o Sistema Municipal de Auditoria do Sistema &Uacute;nico de Sa&uacute;de, determina descontos ao Sistema de Seguridade Social sobre a Gratifica&ccedil;&atilde;o de Auditoria e d&aacute; outras provid&ecirc;ncias.\&quot;&quot;}">Emenda Modificativa ao Projeto de Lei Ordin&aacute;ria, proposi&ccedil;&atilde;o n&ordm; 005.00147.2018, de iniciativa do Sr. Prefeito, que "Altera a Lei n&ordm; 8.962, de 2 de dezembro de 1996 que institui o Sistema Municipal de Auditoria do Sistema &Uacute;nico de Sa&uacute;de, determina descontos ao Sistema de Seguridade Social sobre a Gratifica&ccedil;&atilde;o de Auditoria e d&aacute; outras provid&ecirc;ncias."</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Acrescenta par&aacute;grafos ao artigo 3&deg; da Lei n&deg; 14.633 de 14 de abril de 2015, que \&quot;Disp&otilde;e sobre a permiss&atilde;o para o funcionamento da bancas de jornais e revistas no Munic&iacute;pio de Curitiba e d&aacute; outras providencias.\&quot;&quot;}">Acrescenta par&aacute;grafos ao artigo 3&deg; da Lei n&deg; 14.633 de 14 de abril de 2015, que "Disp&otilde;e sobre a permiss&atilde;o para o funcionamento da bancas de jornais e revistas no Munic&iacute;pio de Curitiba e d&aacute; outras providencias."</td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;N&atilde;o votou&quot;}">N&atilde;o votou</td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Supressiva ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00146.2018, de iniciativa do Prefeito, que ﬁExtingue o Fundo Municipal Provisional de Previd&ecirc;ncia de que trata o art. 26 da Lei n&deg; 9.626, de 27 de Julho de 1999, e d&aacute; outras provid&ecirc;nciasﬂ.&quot;}">Emenda Supressiva ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00146.2018, de iniciativa do Prefeito, que ﬁExtingue o Fundo Municipal Provisional de Previd&ecirc;ncia de que trata o art. 26 da Lei n&deg; 9.626, de 27 de Julho de 1999, e d&aacute; outras provid&ecirc;nciasﬂ.</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Aditiva ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00022.2018, de iniciativa do Prefeito, que \&quot;Estabelece regras de governan&ccedil;a destinadas &agrave;s empresas estatais do Munic&iacute;pio de Curitiba de menor porte, e d&aacute; outras provid&ecirc;ncias.\&quot;.&quot;}">Emenda Aditiva ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00022.2018, de iniciativa do Prefeito, que "Estabelece regras de governan&ccedil;a destinadas &agrave;s empresas estatais do Munic&iacute;pio de Curitiba de menor porte, e d&aacute; outras provid&ecirc;ncias.".</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Modificativa ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00022.2018, de iniciativa do Prefeito, que \&quot;Estabelece regras de governan&ccedil;a destinadas &agrave;s empresas estatais do Munic&iacute;pio de Curitiba de menor porte, e d&aacute; outras provid&ecirc;ncias.\&quot;.&quot;}">Emenda Modificativa ao Projeto de Lei Ordin&aacute;ria, Proposi&ccedil;&atilde;o n&ordm; 005.00022.2018, de iniciativa do Prefeito, que "Estabelece regras de governan&ccedil;a destinadas &agrave;s empresas estatais do Munic&iacute;pio de Curitiba de menor porte, e d&aacute; outras provid&ecirc;ncias.".</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Emenda Aditiva ao Projeto de Lei, Proposi&ccedil;&atilde;o n&ordm; 013.00001.2018, que disp&otilde;e sobre as diretrizes para a elabora&ccedil;&atilde;o da Lei Or&ccedil;ament&aacute;ria Anual para 2019 e d&aacute; outras provid&ecirc;ncias.&quot;}">Emenda Aditiva ao Projeto de Lei, Proposi&ccedil;&atilde;o n&ordm; 013.00001.2018, que disp&otilde;e sobre as diretrizes para a elabora&ccedil;&atilde;o da Lei Or&ccedil;ament&aacute;ria Anual para 2019 e d&aacute; outras provid&ecirc;ncias.</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Solicita a aprecia&ccedil;&atilde;o, em Regime de Urg&ecirc;ncia, da Proposi&ccedil;&atilde;o n&ordm; 005.00149.2018.&quot;}">Solicita a aprecia&ccedil;&atilde;o, em Regime de Urg&ecirc;ncia, da Proposi&ccedil;&atilde;o n&ordm; 005.00149.2018.</td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Convoca o Presidente da URBS, Sr. Ogeny Pedro Maia Neto, para prestar esclarecimentos sobre a tarifa do transporte p&uacute;blico em Curitiba.&quot;}">Convoca o Presidente da URBS, Sr. Ogeny Pedro Maia Neto, para prestar esclarecimentos sobre a tarifa do transporte p&uacute;blico em Curitiba.</td>
+                                            <td></td>
+                                            </tr>
+                                            </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Static Table End -->
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="footer-copy-right">
+							<p>Trabalho Acadêmico de: <a href="https://www.linkedin.com/in/annabzzi">Anna Buzzi <i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a> e <a href="https://www.linkedin.com/in/jenifer-ribeiro-0911b6168">Jenifer Ribeiro <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>.<br></p>
+							<p>Elaborado na matéria de: <a href="">Jornalismo de Dados</a>.<br></p>
+							<p>Fonte: <a href="https://www.cmc.pr.gov.br/">Câmara Municipal de Curitiba</a>.<br></p>
+							<p>Desenvolvido por: <a href="https://www.linkedin.com/in/scarlet-barbosa">Scarlet Barbosa <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>.<br></p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery
+		============================================ -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+		============================================ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- wow JS
+		============================================ -->
+    <script src="js/wow.min.js"></script>
+    <!-- price-slider JS
+		============================================ -->
+    <script src="js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+		============================================ -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+		============================================ -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+		============================================ -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+		============================================ -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- mCustomScrollbar JS
+		============================================ -->
+    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+		============================================ -->
+    <script src="js/metisMenu/metisMenu.min.js"></script>
+    <script src="js/metisMenu/metisMenu-active.js"></script>
+    <!-- data table JS
+		============================================ -->
+    <script src="js/data-table/bootstrap-table.js"></script>
+    <script src="js/data-table/tableExport.js"></script>
+    <script src="js/data-table/data-table-active.js"></script>
+    <script src="js/data-table/bootstrap-table-editable.js"></script>
+    <script src="js/data-table/bootstrap-editable.js"></script>
+    <script src="js/data-table/bootstrap-table-resizable.js"></script>
+    <script src="js/data-table/colResizable-1.5.source.js"></script>
+    <script src="js/data-table/bootstrap-table-export.js"></script>
+    <!--  editable JS
+		============================================ -->
+    <script src="js/editable/jquery.mockjax.js"></script>
+    <script src="js/editable/mock-active.js"></script>
+    <script src="js/editable/select2.js"></script>
+    <script src="js/editable/moment.min.js"></script>
+    <script src="js/editable/bootstrap-datetimepicker.js"></script>
+    <script src="js/editable/bootstrap-editable.js"></script>
+    <script src="js/editable/xediable-active.js"></script>
+    <!-- Chart JS
+		============================================ -->
+    <script src="js/chart/jquery.peity.min.js"></script>
+    <script src="js/peity/peity-active.js"></script>
+    <!-- tab JS
+		============================================ -->
+    <script src="js/tab.js"></script>
+    <!-- plugins JS
+		============================================ -->
+    <script src="js/plugins.js"></script>
+    <!-- main JS
+		============================================ -->
+    <script src="js/main.js"></script>
+    <!-- tawk chat JS
+		============================================ 
+    <script src="js/tawk-chat.js"></script>-->
+</body>
+
+</html>

@@ -114,7 +114,7 @@ body {}
 	margin-top:10px;
 }
 .mg-b-15{
-	margin-bottom:20px;
+    margin-bottom:20px;
 }
 .mt-b-30{
 	margin-bottom:30px;
@@ -226,6 +226,7 @@ body {}
 	box-shadow:none;
 	background:#ebebeb;
 }
+
 .left-custom-menu-adp-wrap .dropdown-menu{
 	position: relative;
 	float: none;
